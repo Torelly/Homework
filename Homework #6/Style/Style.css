@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+header{
+    padding: 20px;
+    height: 94px;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+header li{
+    float: left;
+    margin-right: 20px;
+}
+
+header li a{
+    padding: 5px 10px;
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+}
+
+.active{
+    border-bottom: 1px solid #ffffff;
+}
+
+header li a::after{
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+header li a:hover::after{
+    width: 100%;
+}
+
+
+header h1{
+    width: 60px;
+    height: 60px;
+    background-image: url(../IMG/music-note.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -99999999px;
+    float: left;
+    margin-right: 238px;
+    margin-left: 100px;
+}
+
+header h1 a{
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+header nav{
+    margin-top: 8px;
+}
+
+
+
+main{
+    padding-top: 94px;
+}
+
+main p a{
+    color: #000000;
+}
+.hits{
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 1204px;
+    margin-bottom: 50px;
+}
+
+.first{
+    width: 300px;
+    height: 270px;
+    position: relative;
+    float: left;
+    margin-right: 138px;
+    margin-bottom: 22px;
+}
+.box{
+    width: 300px;
+    height: 244px;
+    padding: 100px;
+    border-style: solid;
+    margin-left: 108px;
+    margin-right: 1032px;
+    position: relative;
+    float: left;
+}
+.sound{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 6px;
+    top: 56px;
+    background-image: url(../IMG/sound.png);
+    background-size: 100%;
+}
+.soundd{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 78px;
+    top: 56px;
+    background-image: url(../IMG/sound.png);
+    background-size: 100%;
+}
+.sounddd{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 152px;
+    top: 56px;
+    background-image: url(../IMG/sound.png);
+    background-size: 100%;
+}
+.soundddd{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    right: 6px;
+    top: 56px;
+    background-image: url(../IMG/sound.png);
+    background-size: 100%;
+}
+.like{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: url(../IMG/like.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.like:hover{
+    background-image: url(../IMG/like\ 1.1.png);
+    cursor: pointer;
+}
+
+.tn{
+    position: absolute;
+    left: 12px;
+    bottom: 78px;
+}
+.an{
+    position: absolute;
+    left: 12px;
+    bottom: 50px;
+}
+.to{
+    position: absolute;
+    left: 108px;
+    bottom: 0px;
+}
+
+.to:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.lhits{
+    clear: both;
+    margin-bottom: 22px;
+    margin-left: 108px;
+}
+
+
+.fb{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0px;
+    top: 200px;
+    filter: grayscale();
+}
+
+.fb:hover{
+filter: none;
+transition: 1s;
+}
+
+
+.ig{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0px;
+    top: 250px;
+    filter: grayscale();
+}
+
+.ig:hover{
+    filter: none;
+    transition: 1s;
+}
+
+
+
+
+main article{
+    margin-top: 146px;
+    margin-bottom: 50px;
+    margin-left: 110px;
+    margin-right: 44px;
+    display: inline-block
+    
+    
+}
+main article h2{
+    margin-bottom: 50px;
+}
+
+.FF{
+    height: 66px;
+    width: 264px;
+    margin: 0 auto;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin: 0 auto;
+
+    
+}
+
+.final{
+    font-size: 36px;
+    display: block;
+    text-align: center;
+    margin-top: 106px;
+    margin-bottom: 144px;
+} 
+
+article{
+    padding: 18px 30px;
+}
+
+article:hover{
+    background-color: #00000010;
+    box-shadow: 5px #00000010;
+}
+
+footer{
+    clear: both;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+.note{
+    margin: 26px auto;
+    height: 150px;
+    width: 150px;
+}
+
+.u{
+color: #ffffff;
+}
+
+.cr{
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
