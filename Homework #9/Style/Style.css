@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../IMG/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hh{
+    width: 750px;
+    height: 100px;
+    padding: 26px 128px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 600px;
+    margin-top: 56px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.payment{
+    width: 750px;
+    height: 800px;
+    margin-left: 600px;
+    margin-top: 64px;
+}
+
+.payment input, .payment textarea{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 22px;
+    outline: none;
+    border: none;
+    border-bottom: #ffffff 3px;
+    color: #000000;
+    background-color: #ffffff8c;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.payment textarea{
+    resize: none;
+}
+
+.payment input::placeholder{
+    color: #000000;
+}
+
+.payment input[type="submit"]{
+    background-color: #01AF8C;
+    color: #000000;
+}
+
+.payment p{
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 12px;
+}
+
+.payment div input{
+    margin-top: 52px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 226px;
+    height: 40px;
+}
+
+.hr{
+    width: 750px;
+    height: 394px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 600px;
+    margin-top: 56px;
+}
+
+.hhh{
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.hhhh{
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.three{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.discount{
+    width: 750px;
+    height: 70px;
+    background-color: #F5BA22;
+    text-align: center;
+    padding: 22px;
+    margin-top: 400px;
+    margin-left: 600px;
+    border-radius: 10px;
+}
+
+.discount a{
+    color: #000000;
+    font-size: 20px;
+}
